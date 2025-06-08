@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/',(req,res)=>{
-    res.json({message:'Server App 1'});
+    res.json({message:'Server App 2'});
 })
 
 app.listen(3000,()=>{
